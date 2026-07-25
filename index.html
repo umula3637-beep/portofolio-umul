@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta name="description"
+content="Portfolio Frontend Developer">
+
+<meta name="keywords"
+content="Portfolio, Web Developer, HTML, CSS, JavaScript">
+
+<meta name="author"
+content="Nama Anda">
+
+<meta property="og:title"
+content="Portfolio Nama Anda">
+
+<meta property="og:description"
+content="Frontend Developer">
+
+<meta property="og:image"
+content="assets/img/profile.png">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio | Nama Anda</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- AOS -->
+
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div id="preloader">
+
+    <div class="loader"></div>
+
+</div>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav>
+
+    <div class="container">
+
+        <div class="logo">
+
+            MyPortfolio
+
+        </div>
+
+        <ul id="menu">
+
+            <li><a href="#home">Home</a></li>
+
+            <li><a href="#about">About</a></li>
+
+            <li><a href="#skill">Skills</a></li>
+
+            <li><a href="#portfolio">Portfolio</a></li>
+
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+
+        <div class="nav-icon">
+
+            <i class="fas fa-moon" id="darkBtn"></i>
+
+            <i class="fas fa-bars" id="menuBtn"></i>
+
+        </div>
+
+    </div>
+
+</nav>
+    <!-- ================= HERO ================= -->
+
+    <section id="home" class="hero">
+
+    <div class="hero-bg"></div>
+
+    <div class="container hero-content">
+
+        <div class="hero-text" data-aos="fade-right">
+
+            <span class="badge">
+                👋 Selamat Datang
+            </span>
+
+            <h1>
+
+                Halo, Saya
+
+                <span>UMUL AIMAN</span>
+
+            </h1>
+
+            <h3>Frontend Developer</h3>
+
+            <p>
+
+                Saya merupakan lulusan Teknik Informatika yang fokus
+                membangun website modern, cepat, responsif,
+                dan user friendly.
+
+            </p>
+
+            <div class="hero-button">
+
+                <a href="#" class="btn">
+
+                    Download CV
+
+                </a>
+
+                <a href="#portfolio" class="btn-outline">
+
+                    Lihat Portfolio
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image" data-aos="fade-left">
+
+            <div class="circle"></div>
+
+            <img src="assets/profile.png">
+
+        </div>
+
+    </div>
+
+</section>
+
+<div class="wave">
+
+<svg xmlns="http://www.w3.org/2000/svg"
+viewBox="0 0 1440 320">
+
+<path fill="#ffffff"
+
+fill-opacity="1"
+
+d="M0,160L80,154.7C160,149,320,139,480,149.3C640,160,800,192,960,197.3C1120,203,1280,181,1360,170.7L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+
+</path>
+
+</svg>
+
+</div>
+<section class="counter">
+
+    <div class="container">
+
+        <div class="counter-grid">
+
+            <div>
+
+                <h2 class="count" data-target="25">0</h2>
+
+                <p>Project</p>
+
+            </div>
+
+            <div>
+
+                <h2 class="count" data-target="10">0</h2>
+
+                <p>Sertifikat</p>
+
+            </div>
+
+            <div>
+
+                <h2 class="count" data-target="3">0</h2>
+
+                <p>Tahun Pengalaman</p>
+
+            </div>
+
+            <div>
+
+                <h2 class="count" data-target="50">0</h2>
+
+                <p>Client</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about">
+
+        <div class="container">
+
+            <h2 data-aos="fade-up">
+
+                Tentang Saya
+
+            </h2>
+
+            <p data-aos="fade-up">
+
+                Saya merupakan lulusan Teknik Informatika yang memiliki
+                ketertarikan dalam pengembangan website, UI/UX,
+                serta Data Mining.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <section class="services">
+
+<div class="container">
+
+<h2>Layanan Saya</h2>
+
+<div class="service-grid">
+
+<div class="service">
+
+<i class="fas fa-code"></i>
+
+<h3>Web Development</h3>
+
+<p>
+
+Membangun website modern menggunakan HTML, CSS, JavaScript dan PHP.
+
+</p>
+
+</div>
+
+<div class="service">
+
+<i class="fas fa-mobile-alt"></i>
+
+<h3>Responsive Design</h3>
+
+<p>
+
+Website tampil sempurna pada desktop maupun smartphone.
+
+</p>
+
+</div>
+
+<div class="service">
+
+<i class="fas fa-chart-line"></i>
+
+<h3>Data Analysis</h3>
+
+<p>
+
+Mengolah data menjadi informasi yang bermanfaat menggunakan teknik Data Mining.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<section id="education" class="timeline-section">
+
+    <div class="container">
+
+        <h2 data-aos="fade-up">Pendidikan</h2>
+
+        <div class="timeline">
+
+            <div class="timeline-item left" data-aos="fade-right">
+
+                <div class="timeline-content">
+
+                    <span class="year">2019 - 2022</span>
+
+                    <h3>SMK Negeri ...</h3>
+
+                    <p>
+                        Jurusan Rekayasa Perangkat Lunak.
+                        Belajar dasar pemrograman, database,
+                        dan pengembangan aplikasi.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="timeline-item right" data-aos="fade-left">
+
+                <div class="timeline-content">
+
+                    <span class="year">2022 - 2026</span>
+
+                    <h3>Universitas ...</h3>
+
+                    <p>
+                        S1 Teknik Informatika.
+                        Fokus pada Web Development,
+                        Data Mining, Machine Learning,
+                        dan UI/UX.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<section id="experience" class="timeline-section">
+
+    <div class="container">
+
+        <h2 data-aos="fade-up">
+
+            Pengalaman
+
+        </h2>
+
+        <div class="timeline">
+
+            <div class="timeline-item left" data-aos="fade-right">
+
+                <div class="timeline-content">
+
+                    <span class="year">
+
+                        2024
+
+                    </span>
+
+                    <h3>
+
+                        Web Developer Freelance
+
+                    </h3>
+
+                    <p>
+
+                        Membuat website UMKM menggunakan
+                        HTML, CSS, JavaScript,
+                        PHP dan MySQL.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="timeline-item right" data-aos="fade-left">
+
+                <div class="timeline-content">
+
+                    <span class="year">
+
+                        2025
+
+                    </span>
+
+                    <h3>
+
+                        Data Mining Project
+
+                    </h3>
+
+                    <p>
+
+                        Membuat sistem klasifikasi Diabetes
+                        menggunakan algoritma Decision Tree
+                        dan K-Means Clustering.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- ================= SKILL ================= -->
+
+  <section id="skill">
+
+<div class="container">
+
+<h2>Skills</h2>
+
+<div class="skill-box">
+
+<div class="skill">
+
+<p>HTML</p>
+
+<div class="progress">
+
+<div class="progress-bar html">95%</div>
+
+</div>
+
+</div>
+
+<div class="skill">
+
+<p>CSS</p>
+
+<div class="progress">
+
+<div class="progress-bar css">90%</div>
+
+</div>
+
+</div>
+
+<div class="skill">
+
+<p>JavaScript</p>
+
+<div class="progress">
+
+<div class="progress-bar js">80%</div>
+
+</div>
+
+</div>
+
+<div class="skill">
+
+<p>PHP</p>
+
+<div class="progress">
+
+<div class="progress-bar php">85%</div>
+
+</div>
+
+</div>
+
+<div class="skill">
+
+<p>Python</p>
+
+<div class="progress">
+
+<div class="progress-bar py">75%</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+    <!-- ================= PORTFOLIO ================= -->
+
+    <section id="portfolio">
+
+<div class="container">
+
+<h2 data-aos="fade-up">
+
+Portfolio
+
+</h2>
+
+<div class="portfolio-grid">
+
+<div class="project" data-aos="zoom-in">
+
+<img src="assets/img/project1.jpg">
+
+<div class="project-info">
+
+<h3>Sistem Informasi Sekolah</h3>
+
+<p>HTML • CSS • PHP • MySQL</p>
+
+<a href="#">Lihat Detail</a>
+
+</div>
+
+</div>
+
+<div class="project" data-aos="zoom-in">
+
+<img src="assets/img/project2.jpg">
+
+<div class="project-info">
+
+<h3>Prediksi Diabetes</h3>
+
+<p>Python • Data Mining</p>
+
+<a href="#">Lihat Detail</a>
+
+</div>
+
+</div>
+
+<div class="project" data-aos="zoom-in">
+
+<img src="assets/img/project3.jpg">
+
+<div class="project-info">
+
+<h3>Website Toko Online</h3>
+
+<p>Laravel • Bootstrap</p>
+
+<a href="#">Lihat Detail</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="certificate">
+
+<div class="container">
+
+<h2>Sertifikat</h2>
+
+<div class="certificate-grid">
+
+<div class="certificate-card">
+
+<img src="assets/img/certificate1.jpg">
+
+<h3>Belajar Dasar Web</h3>
+
+</div>
+
+<div class="certificate-card">
+
+<img src="assets/img/certificate2.jpg">
+
+<h3>JavaScript</h3>
+
+</div>
+
+<div class="certificate-card">
+
+<img src="assets/img/certificate3.jpg">
+
+<h3>Data Mining</h3>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact">
+
+        <div class="container">
+
+            <h2>
+
+                Hubungi Saya
+
+            </h2>
+
+            <form>
+
+                <input type="text" placeholder="Nama">
+
+                <input type="email" placeholder="Email">
+
+                <textarea placeholder="Pesan"></textarea>
+
+                <button>
+
+                    Kirim
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+<section class="social">
+
+<div class="container">
+
+<a href="#">
+
+<i class="fab fa-github"></i>
+
+</a>
+
+<a href="#">
+
+<i class="fab fa-linkedin"></i>
+
+</a>
+
+<a href="#">
+
+<i class="fab fa-instagram"></i>
+
+</a>
+
+<a href="#">
+
+<i class="fab fa-whatsapp"></i>
+
+</a>
+
+</div>
+
+</section>
+<section class="testimonial">
+
+<div class="container">
+
+<h2>Testimoni</h2>
+
+<div class="testimonial-grid">
+
+<div class="testimonial-card">
+
+<p>
+
+"Sangat profesional dan pengerjaan cepat."
+
+</p>
+
+<h4>- Client A</h4>
+
+</div>
+
+<div class="testimonial-card">
+
+<p>
+
+"Website yang dibuat sangat modern."
+
+</p>
+
+<h4>- Client B</h4>
+
+</div>
+
+<div class="testimonial-card">
+
+<p>
+
+"Komunikasi baik dan hasil memuaskan."
+
+</p>
+
+<h4>- Client C</h4>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+<div class="container">
+
+<h2>UMUL AIMAN</h2>
+
+<p>
+
+Frontend Developer • Web Developer • UI Designer
+
+</p>
+
+<div class="footer-social">
+
+<a href="#"><i class="fab fa-github"></i></a>
+
+<a href="#"><i class="fab fa-linkedin"></i></a>
+
+<a href="#"><i class="fab fa-instagram"></i></a>
+
+<a href="#"><i class="fab fa-whatsapp"></i></a>
+
+</div>
+
+<p>
+
+© 2026 All Rights Reserved
+
+</p>
+
+</div>
+
+</footer>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <script>
+
+        AOS.init({
+            duration:1000
+        });
+
+    </script>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
